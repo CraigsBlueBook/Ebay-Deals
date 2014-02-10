@@ -1,0 +1,16 @@
+# Git
+.*
+!/.gitignore
+
+# Mac OS X
+*.DS_Store
+
+# Project Specific
+build/
+www/
+setup.py
+*.out
+*.json
+*.egg-*/
+*.sublime-*
+*.pyc
