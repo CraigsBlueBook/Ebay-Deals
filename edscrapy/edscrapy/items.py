@@ -5,7 +5,11 @@
 
 from scrapy.item import Item, Field
 
-class EdscrapyItem(Item):
-    # define the fields for your item here like:
-    # name = Field()
-    pass
+class EbayDealsItems(Item):
+    category = Field()
+    image = Field()
+    url = Field()
+    title = Field()
+    price = Field()
+    discount = Field()
+    shipping = Field()
